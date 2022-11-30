@@ -11,8 +11,8 @@ export class ButtonComponent implements OnInit {
   @Output() btnClick = new EventEmitter();
 
   constructor() {
-    this.text = '';
-    this.color = '';
+    // this.text = '';
+    // this.color = '';
   }
 
   //This one is like the useEffect on React
